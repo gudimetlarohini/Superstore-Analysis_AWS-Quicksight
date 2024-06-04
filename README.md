@@ -42,6 +42,8 @@ This project involves in analysis of superstore data
 
 #### Amazon Athena:
 - Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
+  <img width="1373" alt="Athena" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/87cb2443-373f-4e74-9d82-69fc69eb46c7">
+
 
 #### Amazon QuickSight:
 - Sign up for QuickSight standard edition (one month free).
