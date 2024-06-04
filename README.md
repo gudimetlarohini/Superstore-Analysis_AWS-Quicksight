@@ -39,8 +39,8 @@ This project involves in analysis of superstore data
   - Then create an IAM role to access and perform the job on AWS services. 
   - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database.
   
-
-    
+  <img width="700" alt="Glue2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c2b2eff7-fa36-4cdb-9d04-b3738cde0312">
+  
 - Finally, create a crawler and run it.
 #### Note: 
 - The main function of the crawler is to access the S3, locate the file, and transform raw data into metadata in the form of tables. 
@@ -49,7 +49,7 @@ This project involves in analysis of superstore data
 #### Amazon Athena:
 - Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
   
-  ![Model](<img width="700" alt="Athena" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/87cb2443-373f-4e74-9d82-69fc69eb46c7">)
+<img width="700" alt="Athena" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/87cb2443-373f-4e74-9d82-69fc69eb46c7">
 
 
 #### Amazon QuickSight:
@@ -57,6 +57,12 @@ This project involves in analysis of superstore data
 - Go to the datasets, click on "new dataset," and select Athena.
 - Make sure you are in the same region(It is there in the top right corner)where you created the S3, Glue, and Athena services.
 - Provide a name for the data source, validate the connection, and create the data source.
+
+  <img width="1431" alt="Quicksight_2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/1a2546fe-6b92-408f-abbf-3286a9087c4a">
+
 - After creation, select the database and table names, and click on "select."
 - Choose "Import to SPICE" for faster analytics and visualization.
 - Then, create various charts to meet the business requirements.
+
+  <img width="1434" alt="Quicksight_5" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/f63ee355-4107-46b1-bc8e-0c0ef60983fb">
+
