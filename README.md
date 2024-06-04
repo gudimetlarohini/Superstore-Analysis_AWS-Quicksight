@@ -29,12 +29,18 @@ This project involves in analysis of superstore data
 - Following that, I created a subfolder named "Orders_Superstore" and then created four more subfolders named "Order_day=2017-01-01"(with each year) to store the saved dataset(s).
 
 #### AWS Glue:
-- Go to the Glue service and create a database named "db_superstore," which will appear in the left panel. 
+- Go to the Glue service and create a database named "db_superstore," which will appear in the left panel.
+  
+  <img width="700" alt="AWS Glue" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/ea36243d-9f3c-41b0-b396-c6aad6e9de4b">
+   
 - Next, create a crawler named "Superstore_Crawler." 
   - When creating the crawler, select the data source from which the crawler will read the data. 
   - In this case, the data source is "Order_Superstore," which is in S3. Opt for "Crawl new subfolders only," which means the crawler will read only the newly added files. 
   - Then create an IAM role to access and perform the job on AWS services. 
-  - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database. 
+  - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database.
+  
+
+    
 - Finally, create a crawler and run it.
 #### Note: 
 - The main function of the crawler is to access the S3, locate the file, and transform raw data into metadata in the form of tables. 
@@ -43,7 +49,7 @@ This project involves in analysis of superstore data
 #### Amazon Athena:
 - Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
   
-  <img width="700" alt="Athena" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/87cb2443-373f-4e74-9d82-69fc69eb46c7">
+  ![Model](<img width="700" alt="Athena" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/87cb2443-373f-4e74-9d82-69fc69eb46c7">)
 
 
 #### Amazon QuickSight:
