@@ -37,17 +37,17 @@ This project involves in analysis of superstore data
   - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database. 
 - Finally, create a crawler and run it.
 #### Note: 
-The main function of the crawler is to access the S3, locate the file, and transform raw data into metadata in the form of tables. 
-In S3, we name folders like "Order_day=2017-01-01," where "Order_day" represents the partition key. By specifying a folder in this format, the crawler will directly navigate to that partition key and read the data.
+- The main function of the crawler is to access the S3, locate the file, and transform raw data into metadata in the form of tables. 
+- In S3, we name folders like "Order_day=2017-01-01," where "Order_day" represents the partition key. By specifying a folder in this format, the crawler will directly navigate to that partition key and read the data.
 
 #### Amazon Athena:
-Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
+- Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
 
 #### Amazon QuickSight:
-Sign up for QuickSight standard edition (one month free).
-Go to the datasets, click on "new dataset," and select Athena.
-Make sure you are in the same region(It is there in the top right corner)where you created the S3, Glue, and Athena services.
-Provide a name for the data source, validate the connection, and create the data source.
-After creation, select the database and table names, and click on "select."
-Choose "Import to SPICE" for faster analytics and visualization.
-Then, create various charts to meet the business requirements.
+- Sign up for QuickSight standard edition (one month free).
+- Go to the datasets, click on "new dataset," and select Athena.
+- Make sure you are in the same region(It is there in the top right corner)where you created the S3, Glue, and Athena services.
+- Provide a name for the data source, validate the connection, and create the data source.
+- After creation, select the database and table names, and click on "select."
+- Choose "Import to SPICE" for faster analytics and visualization.
+- Then, create various charts to meet the business requirements.
