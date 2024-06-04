@@ -1,3 +1,53 @@
 # Superstore Data Analysis_ AWS Quicksight
-### Introduction to Project
+## Introduction to Project
 This project involves in analysis of superstore data
+### Agenda for Superstore data analysis
+Excel/CSV file
+AWS root account
+IAM user account
+Amazon S3
+AWS Glue
+Amazon Athena
+Amazon Quicksight
+
+### Step-by-step process of the project:
+#### Excel:
+Download the Superstore dataset (CSV file) from Kaggle.
+Apply a filter to the order_date column to select orders dated 2017-01-01.
+Save this filtered data in a new worksheet and name it Order_Jan_2017.csv.
+Apply the same conditions every January of each year and save each file using the same format and naming convention as the respective year.
+
+#### AWS account:
+Create an AWS account.
+The root account is the owner of the AWS account. In an organization, it is generally managed by AWS administrators.
+IAM User account: This type of account has specific permissions for a single user or application (It is used by developers working on projects).
+When creating an IAM account, assign the "admin access" policy to grant access to all AWS services for the IAM user.
+After creating an IAM user account, sign out from the root account and log in as an IAM user.
+
+#### S3:
+Go to the S3 services and create a bucket with a globally unique name using only lowercase alphanumeric characters. Within that bucket, I created a folder called "aws-project-1-superstore."
+Following that, I created a subfolder named "Orders_Superstore" and then created four more subfolders named "Order_day=2017-01-01"(with each year) to store the saved dataset(s).
+
+#### AWS Glue:
+Go to the Glue service and create a database named "db_superstore," which will appear in the left panel. 
+Next, create a crawler named "Superstore_Crawler." 
+When creating the crawler, select the data source from which the crawler will read the data. 
+In this case, the data source is "Order_Superstore," which is in S3. Opt for "Crawl new subfolders only," which means the crawler will read only the newly added files. 
+Then create an IAM role to access and perform the job on AWS services. 
+The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database. 
+Finally, create a crawler and run it.
+#### Note: 
+The main function of the crawler is to access the S3, locate the file, and transform raw data into metadata in the form of tables. 
+In S3, we name folders like "Order_day=2017-01-01," where "Order_day" represents the partition key. By specifying a folder in this format, the crawler will directly navigate to that partition key and read the data.
+
+#### Amazon Athena:
+Go to the Athena Query Editor. It provides a workspace to write or modify queries and run them.
+
+#### Amazon QuickSight:
+Sign up for QuickSight standard edition (one month free).
+Go to the datasets, click on "new dataset," and select Athena.
+Make sure you are in the same region(It is there in the top right corner)where you created the S3, Glue, and Athena services.
+Provide a name for the data source, validate the connection, and create the data source.
+After creation, select the database and table names, and click on "select."
+Choose "Import to SPICE" for faster analytics and visualization.
+Then, create various charts to meet the business requirements.
