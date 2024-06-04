@@ -58,11 +58,11 @@ This project involves in analysis of superstore data
 - Make sure you are in the same region(It is there in the top right corner)where you created the S3, Glue, and Athena services.
 - Provide a name for the data source, validate the connection, and create the data source.
 
-  <img width="1431" alt="Quicksight_2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/1a2546fe-6b92-408f-abbf-3286a9087c4a">
+  <img width="700" alt="Quicksight_2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/1a2546fe-6b92-408f-abbf-3286a9087c4a">
 
 - After creation, select the database and table names, and click on "select."
 - Choose "Import to SPICE" for faster analytics and visualization.
 - Then, create various charts to meet the business requirements.
 
-  <img width="1434" alt="Quicksight_5" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/f63ee355-4107-46b1-bc8e-0c0ef60983fb">
+  <img width="700" alt="Quicksight_5" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/f63ee355-4107-46b1-bc8e-0c0ef60983fb">
 
