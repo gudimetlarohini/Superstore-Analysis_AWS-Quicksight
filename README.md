@@ -24,7 +24,7 @@ This project involves in analysis of superstore data
 - When creating an IAM account, assign the "admin access" policy to grant access to all AWS services for the IAM user.
 - After creating an IAM user account, sign out from the root account and log in as an IAM user.
 
-#### S3:
+#### Amazon S3:
 - Go to the S3 services and create a bucket with a globally unique name using only lowercase alphanumeric characters. Within that bucket, I created a folder called "aws-project-1-superstore."
 - Following that, I created a subfolder named "Orders_Superstore" and then created four more subfolders named "Order_day=2017-01-01"(with each year) to store the saved dataset(s).
 
@@ -38,6 +38,7 @@ This project involves in analysis of superstore data
   - In this case, the data source is "Order_Superstore," which is in S3. Opt for "Crawl new subfolders only," which means the crawler will read only the newly added files. 
   - Then create an IAM role to access and perform the job on AWS services. 
   - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database.
+
   
   <img width="700" alt="Glue2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c2b2eff7-fa36-4cdb-9d04-b3738cde0312">
   
