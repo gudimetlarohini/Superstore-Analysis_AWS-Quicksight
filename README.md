@@ -2,13 +2,13 @@
 ## Introduction to Project
 This project involves in analysis of superstore data
 ### Agenda for Superstore data analysis
-Excel/CSV file
-AWS root account
-IAM user account
-Amazon S3
-AWS Glue
-Amazon Athena
-Amazon Quicksight
+- Excel/CSV file
+- AWS root account
+- IAM user account
+- Amazon S3
+- AWS Glue
+- Amazon Athena
+- Amazon Quicksight
 
 ### Step-by-step process of the project:
 #### Excel:
