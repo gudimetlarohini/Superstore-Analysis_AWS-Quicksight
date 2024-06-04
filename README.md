@@ -1,5 +1,5 @@
 # Superstore Data Analysis_ AWS Quicksight
-## Introduction to Project
+### Introduction to Project
 This project involves in analysis of superstore data
 ### Agenda for Superstore data analysis
 - Excel/CSV file
