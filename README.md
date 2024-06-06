@@ -1,6 +1,10 @@
 # Superstore Data Analysis_ AWS Quicksight
 ### Introduction to Project
 This project focuses on analyzing superstore data using a comprehensive process involving various AWS services. Starting with filtering and saving CSV files, it moves through creating an AWS account, setting up an S3 bucket, configuring AWS Glue for data crawling, querying with Amazon Athena, and visualizing data in Amazon QuickSight. This step-by-step approach ensures efficient data management and insightful analytics.
+### Architecture Diagram of Superstore analysis
+
+<img width="700" alt="Architecture" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/22723043-65e3-4095-bd76-19a8f11685d8">
+
 ### Agenda for Superstore data analysis
 - Excel/CSV file
 - AWS root account
