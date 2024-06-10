@@ -71,11 +71,16 @@ This project focuses on analyzing superstore data using a comprehensive process 
   <img width="700" alt="Quicksight_5" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/f63ee355-4107-46b1-bc8e-0c0ef60983fb">
 
 - Then, create various charts to meet the business requirements.
-- I have conducted an analysis of sales and profits categorized by different product categories. The results are illustrated using two types of visualizations: Pie Chart And Bar Graph.
+  - I have conducted an analysis of sales and profits categorized by different product categories. The results are illustrated using two types of visualizations: Pie Chart And Bar Graph.
+  - In addition to the category-wise breakdown, I have also analyzed sales and profits segmented by customer groups.
 
-<img width="783" alt="Sales Analysis" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c415109c-9e4a-4f4b-83e9-001e12bcfd0a">
+  <img width="783" alt="Sales Analysis" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c415109c-9e4a-4f4b-83e9-001e12bcfd0a">
 
-_ 
+  - To gain a comprehensive understanding of our business performance across different states, I have conducted a detailed analysis encompassing several key metrics. The results are illustrated using Bar and Line graphs for clarity and ease of comparison.
+
+    <img width="1256" alt="Statewide Analysis" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/fc1e56e4-0cd6-4248-bde4-2df2f1320ad0">
+
+These visualizations provide a detailed and actionable view of business performance metrics across different states, enabling better strategic planning and decision-making at the regional level.
 
 
 
