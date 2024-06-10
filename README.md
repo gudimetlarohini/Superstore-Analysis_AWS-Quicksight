@@ -43,8 +43,7 @@ This project focuses on analyzing superstore data using a comprehensive process 
   - Then create an IAM role to access and perform the job on AWS services. 
   - The name of the role should be "AWSGlueServiceRole-Role_Superstore." Once the data is crawled, store the metadata (tables) in the "db_superstore" database.
 
-  
-  <img width="700" alt="Glue2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c2b2eff7-fa36-4cdb-9d04-b3738cde0312">
+    <img width="700" alt="Glue2" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c2b2eff7-fa36-4cdb-9d04-b3738cde0312">
   
 - Finally, create a crawler and run it.
 #### Note: 
