@@ -67,7 +67,15 @@ This project focuses on analyzing superstore data using a comprehensive process 
 
 - After creation, select the database and table names, and click on "select."
 - Choose "Import to SPICE" for faster analytics and visualization.
-- Then, create various charts to meet the business requirements.
-
+- Here is the work sapce to create charts.
   <img width="700" alt="Quicksight_5" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/f63ee355-4107-46b1-bc8e-0c0ef60983fb">
+
+- Then, create various charts to meet the business requirements.
+- I have conducted an analysis of sales and profits categorized by different product categories. The results are illustrated using two types of visualizations: Pie Chart And Bar Graph.
+
+<img width="783" alt="Sales Analysis" src="https://github.com/gudimetlarohini/Superstore-Analysis_AWS-Quicksight/assets/164952263/c415109c-9e4a-4f4b-83e9-001e12bcfd0a">
+
+_ 
+
+
 
